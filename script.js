@@ -1,5 +1,5 @@
 let number = 6;
-let scour = 6 * 6;
+let scour = number * number;
 
 if (scour > 100) {
   console.log("მეტია ასზე");
@@ -7,11 +7,10 @@ if (scour > 100) {
   console.log("ნაკლებია ასზე");
 }
 
+
 let number1 = 54;
-if (number1 < 50) {
-  console.log("ნაკლებია 50 -ზე");
-} else if (number1 < 100) {
-  console.log("ნაკლებია 100-ზე მაგრამ მეტია 50 ზე ");
+if (number1 > 50 && number1 < 100) {
+  console.log("მეტია 50 -ზე მაგრამ ნაკლებია 100 ზე ");
 } else {
   console.log("მეტია 100-ზე");
 }
