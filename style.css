@@ -149,4 +149,7 @@ li {
     width: 375px;
     height: 284px;
   }
+  body{
+    background-color: #ffffff;
+  }
 }
