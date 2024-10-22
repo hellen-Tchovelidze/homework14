@@ -76,11 +76,6 @@ li {
   gap: 20px;
 }
 
-.container_email{
-  position: relative;
-  top: 0;
-}
-
 
 .heading_email {
   font-family: Roboto;
@@ -93,7 +88,7 @@ li {
 }
 
 .input_email {
-  border-radius: 16px;
+  border-radius: 8px;
   background: #fff;
   width: 376px;
   height: 56px;
@@ -105,8 +100,20 @@ li {
   font-weight: 400;
   line-height: 150%;
   padding: 10px;
+  border: 1px solid #242742;
 }
 
+.input_email:focus{
+  border-radius: 8px;
+border: 1px solid var(--Vermellion, #FF6155);
+background: rgba(255, 97, 85, 0.15);
+outline: none;
+}
+
+
+input:focus::placeholder{
+  color: var(--Vermellion, #FF6155);
+}
 .required{
   color: var(--Vermellion, #FF6155);
 text-align: right;
@@ -118,9 +125,6 @@ font-weight: 700;
 line-height: 150%; 
 margin: 8px;
 display: none;
-position: absolute;
-top: 430px;
-left: 588px;
 }
 .input_email:focus + .required{
   display: block;
