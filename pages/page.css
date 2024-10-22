@@ -102,7 +102,7 @@ body {
   box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.5);
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 840px) {
     .container {
         border-radius: none;
         background: none;
